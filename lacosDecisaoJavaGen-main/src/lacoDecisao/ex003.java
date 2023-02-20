@@ -21,4 +21,4 @@ public class ex003 {
         else System.out.println("Idade não catalogada. Tente novamente");
 
     }
-}
+} switch
