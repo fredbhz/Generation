@@ -10,7 +10,7 @@ public class Main {
 
 
 
-    public Playstation5(String nome, int idade, String endereco, String cpf, String raca) {
+    public Cliente(String nome, int idade, String endereco, String cpf, String raca) {
         super();
         this.nome = nome;
         this.idade = idade;
