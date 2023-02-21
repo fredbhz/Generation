@@ -1,28 +1,87 @@
-package vetores;
-import java.util.Scanner;
+package Cliente;
 
 public class Main {
-    public static void main(String[] args){
-        Scanner in = new Scanner(System.in);
 
-
-        int[] vetor = new int[10];
-
-
-        int x;
-
-
-        for(int i = 0; i < vetor.length; i++){
-            System.out.println("Digite um valor para a posição " + i);
-            vetor[i] = in.nextInt();
-        }
-
-
-        System.out.println("Digite um índice X (entre 0 e 4)");
-        x = in.nextInt();
+    private String nome;
+    private int idade;
+    private String endereco;
+    private String cpf;
+    private String raca;
 
 
 
-        System.out.println("A soma dos valores dentro dos índices X e Y é = " + (vetor[x]));
+    public Playstation5(String nome, int idade, String endereco, String cpf, String raca) {
+        super();
+        this.nome = nome;
+        this.idade = idade;
+        this.endereco = endereco;
+        this.cpf = cpf;
+        this.raca = raca;
     }
+
+    public Main(String roberto, int i, String s, String s1, String pardo) {
+
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String internet) {
+        this.cpf = cpf;
+    }
+
+    public String getRaca() {
+        return raca;
+    }
+
+    public void setRaca(String raca) {
+        this.raca = raca;
+    }
+
+    void mudar() {
+        if (endereco == "BH") {
+            endereco = "FORA";
+            System.out.println("Residencia " + endereco);
+        }
+    }
+
+    void verificarCPF() {
+        if (cpf == "cadastrado") {
+            cpf = "nao Cadastrado";
+            System.out.println("CPF " + cpf);
+        }
+    }
+
+    void raca() {
+        if(raca == "pardo"  {
+            System.out.println("Raça Pardo");
+
+        }
+    }
+
 }
