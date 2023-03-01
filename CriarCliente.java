@@ -4,7 +4,7 @@ public class CriarCliente {
 	
 	public static void main(String[] args) {
 		
-		Cliente cliente1 = new Cliente("Pedro","Bino", 35, "cargapesada@email.com","s");
+		Cliente cliente1 = new Cliente("Zé","Lutero", 22, "autopaz@email.com","s");
 		
 		cliente1.cadastrar();
 		
